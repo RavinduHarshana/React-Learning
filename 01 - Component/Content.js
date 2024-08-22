@@ -15,3 +15,8 @@ export default function Content() {
     </div>
   );
 }
+
+// import Content from '../Components/Content'
+
+// Use 
+// <Content/>
