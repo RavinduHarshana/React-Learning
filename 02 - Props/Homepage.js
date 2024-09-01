@@ -7,3 +7,12 @@ export default function Homepage(props) {
     <div>{props.Name}</div>
   )
 }
+
+// set default Props
+Homepage.defaultProps={
+    Name:"Ravindu",
+}
+
+Homepage.prototype={
+    Name:prototype.String,
+}
