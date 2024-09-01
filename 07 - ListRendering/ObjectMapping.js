@@ -10,6 +10,10 @@ export default function ObjectMapping() {
     { Name: "Vivo", Price: 400 },
   ];
 
+  //   Filtering
+  //   This variable mapping in the down line we can get a filters list
+  const lowbudget = Phones.filter((Phones) => Phones.Price < 1000);
+
   //   Mapping Object
   const Phoneitem = Phones.map((phone) => {
     <li>
@@ -21,7 +25,7 @@ export default function ObjectMapping() {
   return (
     <>
       {/* Return items as oder list type */}
-    {/* Apita One componenet ekak widihata Design karanna puluwan */}
+      {/* Apita One componenet ekak widihata Design karanna puluwan */}
       <ol>{Phoneitem}</ol>
     </>
   );
